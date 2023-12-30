@@ -160,4 +160,4 @@ All commands are run from the root of the project, from a terminal:
 
 ## 📄 Credits
 
-This blog is based on the template created by Daniel Gilibert [blog-template]("https://github.com/danielcgilibert/blog-template")
+This blog is based on the template created by Daniel Gilibert [blog-template](https://github.com/danielcgilibert/blog-template)
