@@ -37,7 +37,7 @@
 		"astro": "4.0.8"
 	},
 	"devDependencies": {
-		"tinacms": "^1.5.21",
+		"tinacms": "^1.5.28",
 		"@tinacms/cli": "^1.5.30",
 		"@astrojs/mdx": "2.0.3",
 		"@astrojs/sitemap": "3.0.4",
