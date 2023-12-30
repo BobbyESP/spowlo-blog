@@ -18,6 +18,7 @@
 - [📝 Activating draft mode](#-activating-draft-mode)
 - [⚡️ Frontmatter](#️-frontmatter)
 - [🧞 Commands](#-commands)
+- [📄 Credits](#-credits)
 
 ## 🦙 Tina CMS
 
