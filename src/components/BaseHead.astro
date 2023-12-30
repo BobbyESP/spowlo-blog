@@ -17,6 +17,7 @@ const socialImageURL = new URL(ogImage ? ogImage : '/spowlo-named-urlpreview.web
 const titleSeparator = '•'
 
 const siteTitle = `${title} ${titleSeparator} ${siteConfig.title}`
+const webpageTitle = `${siteConfig.title}`
 ---
 
 <!-- ViewTransitions  -->
@@ -35,14 +36,14 @@ const siteTitle = `${title} ${titleSeparator} ${siteConfig.title}`
 <title>{siteTitle}</title>
 
 <!-- SEO -->
-<meta name='title' content={siteTitle} />
+<meta name='title' content={webpageTitle} />
 <meta name='description' content={description} />
 <meta name='author' content={siteConfig.author} />
 
 <!-- Open Graph / Facebook -->
 <meta property='og:type' content={articleDate ? 'article' : 'website'} />
 <meta property='og:url' content={Astro.url} />
-<meta property='og:title' content={title} />
+<meta property='og:title' content={webpageTitle} />
 <meta property='og:description' content={description} />
 <meta property='og:image' content={socialImageURL} />
 {
@@ -57,7 +58,7 @@ const siteTitle = `${title} ${titleSeparator} ${siteConfig.title}`
 <!-- Twitter -->
 <meta property='twitter:card' content='summary_large_image' />
 <meta property='twitter:url' content={Astro.url} />
-<meta property='twitter:title' content={title} />
+<meta property='twitter:title' content={webpageTitle} />
 <meta property='twitter:description' content={description} />
 <meta property='twitter:image' content={socialImageURL} />
 

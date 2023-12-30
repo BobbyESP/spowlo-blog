@@ -6,6 +6,7 @@ import TitlePage from '@/components/TitlePage'
 import { sluglify, unsluglify, getCategories, getPosts } from '@/utils'
 import { siteConfig } from '@/data/site.config'
 import Pagination from '@/components/Pagination'
+import { capitalizeFirstLetter } from 'src/utils/capitalize'
 
 export async function getStaticPaths({ paginate }: any) {
 	const categories = await getCategories()
@@ -32,7 +33,7 @@ const unsluglifyNameCategory = unsluglify(params.category!.toLowerCase())
 const posts = page.data
 ---
 
-<BaseLayout title={params.category}>
+<BaseLayout title={capitalizeFirstLetter(params.category)}>
 	<TitlePage title={unsluglifyNameCategory} />
 	<ListCategories activeCategory={params.category} />
 	<ListPosts posts={posts} />

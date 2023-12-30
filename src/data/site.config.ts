@@ -11,7 +11,7 @@ interface SiteConfig {
 export const siteConfig: SiteConfig = {
 	author: 'BobbyESP', // Site author
 	title: 'Spowlo blog', // Site title.
-	description: 'What is behind the development of this downloader app.', // Description to display in the meta tags
+	description: 'What is behind the development of one of the most accurate songs app downloader.', // Description to display in the meta tags
 	lang: 'en-US',
 	ogLocale: 'en_US',
 	shareMessage: 'Share this post', // Message to share a post on social media
