@@ -39,7 +39,7 @@
 	"devDependencies": {
 		"tinacms": "^1.5.28",
 		"@tinacms/cli": "^1.5.39",
-		"@astrojs/mdx": "2.0.3",
+		"@astrojs/mdx": "2.2.1",
 		"@astrojs/sitemap": "3.0.4",
 		"@astrojs/tailwind": "5.1.0",
 		"@pagefind/default-ui": "^1.0.4",
